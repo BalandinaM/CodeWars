@@ -16,3 +16,10 @@ function findOdd(arr) {
   return arr[arr.length - 1];
 }
 console.log(findOdd([20,1,-1,2,-2,3,3,5,5,1,2,4,20,4,-1,-2,5]));
+
+
+function numberToString(num) {
+  return String(num);
+}
+
+console.log(numberToString(59));
